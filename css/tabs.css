@@ -1,0 +1,226 @@
+
+body {
+    background: #000000;
+    margin: 3%;
+  }
+  .tabsdiv {
+    position: relative;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: stretch;
+      overflow: hidden;
+    width: 100%;
+      height: 100vh;
+  }
+   .tabsdiv * {
+       transition: all .3s ease 0s;
+  }
+  
+  .tab1, .tab2, .tab3, .tab4, .tab5 {
+    background: #000000;
+    border: 1px solid #ffffff;
+  }
+  
+  .tab1{
+    box-shadow: 0 0.5rem 0.5rem -0.5rem #ffffff,
+                0 1.5rem 1.5rem -1.5rem #FF00CC,
+                inset 0 -0.5rem 0.5rem -0.5rem #ffffff,
+                inset 0 -1.5rem 1.5rem -1.5rem #FF00CC;
+    animation: 3s colorblink linear infinite;
+  }
+  
+  .tab2 {
+    box-shadow: 0 0.5rem 0.5rem -0.5rem #ffffff,
+                0 1.5rem 1.5rem -1.5rem #FFFB00,
+                inset 0 -0.5rem 0.5rem -0.5rem #ffffff,
+                inset 0 -1.5rem 1.5rem -1.5rem #FFFB00;
+    animation: 3s colorblink linear infinite;
+    animation-delay: 1s;
+  }
+  
+  .tab3 {
+    box-shadow: 0 0.5rem 0.5rem -0.5rem #ffffff,
+                0 1.5rem 1.5rem -1.5rem #FF0000,
+                inset 0 -0.5rem 0.5rem -0.5rem #ffffff,
+                inset 0 -1.5rem 1.5rem -1.5rem #FF0000;
+    animation: 3s colorblink linear infinite;
+    animation-delay: 2s;
+  }
+  
+  
+  .tab4 {
+    box-shadow: 0 0.5rem 0.5rem -0.5rem #ffffff,
+                0 1.5rem 1.5rem -1.5rem #1CFF00,
+                inset 0 -0.5rem 0.5rem -0.5rem #ffffff,
+                inset 0 -1.5rem 1.5rem -1.5rem #1CFF00;
+    animation: 3s colorblink linear infinite;
+    animation-delay: 3s;
+  }
+  
+  
+  .tab5 {
+    box-shadow: 0 0.5rem 0.5rem -0.5rem #ffffff,
+                0 1.5rem 1.5rem -1.5rem #AB00FF,
+                inset 0 -0.5rem 0.5rem -0.5rem #ffffff,
+                inset 0 -1.5rem 1.5rem -1.5rem #AB00FF;
+    animation: 3s colorblink linear infinite;
+    animation-delay: 4s;
+  }
+  
+  
+  .tab1:hover {
+    margin-right: 1%;
+    box-shadow: 0 0 0.5rem #ffffff,
+                0 0 1.5rem #FF00CC,
+                inset 0 0 0.5rem #ffffff,
+                inset 0 0 1.5rem #FF00CC;
+    animation: none;
+  }
+  
+  .tab2:hover {
+    margin-right: 1%;
+    box-shadow: 0 0 0.5rem #ffffff,
+                0 0 1.5rem #FFFB00,
+                inset 0 0 0.5rem #ffffff,
+                inset 0 0 1.5rem #FFFB00;
+    animation: none;
+  }
+  
+  .tab3:hover {
+    margin-right: 1%;
+    box-shadow: 0 0 0.5rem #ffffff,
+                0 0 1.5rem #FF0000,
+                inset 0 0 0.5rem #ffffff,
+                inset 0 0 1.5rem #FF0000;
+    animation: none;
+  }
+  
+  .tab4:hover {
+    margin-right: 1%;
+    box-shadow: 0 0 0.5rem #ffffff,
+                0 0 1.5rem #1CFF00,
+                inset 0 0 0.5rem #ffffff,
+                inset 0 0 1.5rem #1CFF00;
+    animation: none;
+  }
+  
+  .tab5:hover {
+    margin-right: 1%;
+    box-shadow: 0 0 0.5rem #ffffff,
+                0 0 1.5rem #AB00FF,
+                inset 0 0 0.5rem #ffffff,
+                inset 0 0 1.5rem #AB00FF;
+    animation: none;
+  }
+  
+  .articlecontainer {
+       list-style: none;
+       position: relative;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       align-items: stretch;
+       overflow: hidden;
+     width: 100%;
+       height: auto;
+     padding: 2%;
+  }
+  .tabsdiv article {
+       flex: initial;
+       width: 20%;
+       height: 100%;
+       text-align: center;
+       color: #ffffff;
+       text-decoration: none;
+       vertical-align: bottom;
+       box-sizing: border-box;
+       padding: 2vh 1vw;
+       position: relative;
+  }
+  
+  .tabsdiv > .articlecontainer:hover article {
+       flex: initial;
+       width: 10%;
+  }
+  .tabsdiv > .articlecontainer article:hover {
+       width: 60%;
+  }
+  .articleinnerdiv {
+      opacity: 0;
+      transition: opacity .2s ease 0;
+    text-align: left;
+      width: 58vw;
+    padding: 3%;
+  }
+   .tabsdiv article:hover > .articleinnerdiv {
+       opacity: 1;
+       transition: opacity .3s ease .3s;
+  }
+   .tabsdiv article > h2 {
+       bottom: 2.2vh;
+       left: 0;
+       position: absolute;
+       text-align: center;
+       width: 100%;
+       margin: 0;
+       font-size: 2rem;
+  }
+  .articlecontainer:hover article > h2 {
+       bottom: 2.8vh;
+       font-size: 1rem;
+  }
+  .tabsdiv article:hover > h2 {
+    opacity:0;
+  }
+  
+  .articleinnerdiv p, .articleinnerdiv h2{
+       width: 30vw;
+  }
+  
+  .tabsdiv p {
+       width: 30vw;
+  }
+  
+  .tabsdiv h2 {
+      text-transform: uppercase;
+  }
+  
+  .articlecontainer article > h2 {
+    padding: 5px;
+  }
+  
+   @media (max-width: 900px) {
+  .aboutwebsite article {
+           padding: 2vh 3vw;
+      }
+     
+  .tabsdiv article > h2 {
+           transform: rotate(90deg);
+           bottom: 25vh;
+           min-width: 12em;
+           text-align: left;
+           transform: rotate(-90deg);
+           transform-origin: 0 0 0;
+           opacity: 1;
+      }
+  .tabsdiv article:hover > h2 {
+           opacity: 0;
+      }
+  .articleinnerdiv {
+           max-height: calc(72%);
+           overflow-y: auto;
+      }
+  .articleinnerdiv p {
+           width: 50vw;
+      }
+  }
+  
+  @keyframes colorblink {
+    30% {
+      box-shadow: none;
+    }
+  }
