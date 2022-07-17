@@ -101,7 +101,7 @@ body {
 
 .card {
     /* background-color: rgb(255, 187, 30); */
-    background-image: linear-gradient(to right bottom, rgb(255, 30, 30), #fbff00);
+    background-image: linear-gradient(to right bottom, rgb(0, 10, 114), #4c449d);
     padding: 3rem 3.5rem;
     border-radius: 15px;
     display: flex;
@@ -120,10 +120,10 @@ body {
     left: 1px;
     width: 101%;
     height: 110%;
-    background-image: linear-gradient(to right bottom, #fbff00, rgb(255, 30, 30));
+    background-image: linear-gradient(to right bottom, #4c449d, rgb(0, 10, 114));
     z-index: -1;
     border-radius: 15px;
-    transform: rotate(-6deg);
+    transform: rotate(-8deg);
     box-shadow: 0 0 45px 5px rgba(0, 0, 0, .2);
     border: 3px solid black;
         border-radius: 8px;
@@ -141,7 +141,7 @@ body {
 .card li h3 {
     display: inline-block;
     font-size: 2rem;
-    color: #333;
+    color: rgb(255, 255, 255);
     vertical-align: top;
     margin-right: 5px;
     line-height: 1.2;
@@ -152,7 +152,7 @@ body {
 }
 
 .card li span {
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 14px;
 }
