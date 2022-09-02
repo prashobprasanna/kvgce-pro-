@@ -460,7 +460,7 @@
     </header>
 
     <section class="inner-banner wow fadeIn" data-wow-delay=".2s" style="padding:0">
-        <div><img src="images/banner/cs.jpg" class="img-responsive"></div>
+        <div><img src="images/banner/ece.jpg" class="img-responsive"></div>
     </section>
 
     <section class="home-facts-bg">
@@ -470,338 +470,338 @@
                 <style>
                   
 
-.data_more_less_inner {
-    overflow: hidden;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.action_less {
-    display: none;
-}
-
-.less_active .action_less {
-    display: inline-block;
-}
-
-.less_active .action_more {
-    display: none;
-}
-
-.data_more_less:not(.less_active):not(.action_disabled) .data_more_less_inner:after {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff',
-            GradientType=0);
-    height: 80px;
-}
-
-.data_more_less.action_disabled .more_less_action {
-    display: none;
-}
-
-h1 {
-    margin-bottom: 0px;
-}
-
-.btn {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 18px;
-    padding: 7px 15px;
-}
-
-.btn:hover {
-    background: rgb(92, 92, 92);
-    color: rgb(255, 255, 255);
-}
-
-
-
-
-/* stat */
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;300;700&display=swap');
-
-ul {
-    list-style: none;
-}
-
-body {
-    min-height: 100vh;
-    background-color: #f7f8fc;
-}
-
-.section {
-    min-height: 50vh;
-    margin: 0 30px;
-}
-
-.container1 {
-    padding-left: 25px;
-    padding-right: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    font-family: 'Anek Bangla', sans-serif;
-    font-weight: bold;
-}
-
-.card {
-    /* background-color: rgb(255, 187, 30); */
-    background-image: linear-gradient(to right bottom, rgb(0, 10, 114), #4c449d);
-    padding: 3rem 3.5rem;
-    border-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    max-width: 500px;
-    border: 3px solid black;
-    border-radius: 8px;
-    /* z-index: 0; */
-}
-
-.card::before {
-    content: '';
-    position: absolute;
-    top: -15px;
-    left: 1px;
-    width: 101%;
-    height: 110%;
-    background-image: linear-gradient(to right bottom, #4c449d, rgb(0, 10, 114));
-    z-index: -1;
-    border-radius: 15px;
-    transform: rotate(-8deg);
-    box-shadow: 0 0 45px 5px rgba(0, 0, 0, .2);
-    border: 3px solid black;
-        border-radius: 8px;
-}
-
-.card li {
-    width: 50%;
-    margin: 15px 0;
-}
-
-.card li p {
-    display: flex;
-}
-
-.card li h3 {
-    display: inline-block;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    vertical-align: top;
-    margin-right: 5px;
-    line-height: 1.2;
-}
-
-.card li .fa {
-    font-size: 18px;
-}
-
-.card li span {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-
-.clr-up {
-    color: green;
-}
-
-.clr-down {
-    color: red;
-}
-
-@media screen and (max-width: 500px) {
-    .card::before {
-        top: -10px;
-        left: -2px;
-    }
-
-    .card li {
-        width: 100%;
-    }
-
-    .card li:not(:first-of-type) {
-        margin-top: 15px;
-    }
-}
-
-
-
-
-/* HOD Card */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-< !-- body {
-    font-family: 'Poppins', sans-serif;
-    align-items: center;
-    justify-content: center;
-    background-color: #ADE5F9;
-    min-height: 100vh;
-}
-
--->img {
-    max-width: 100%;
-    display: block;
-}
-
-ul {
-    list-style: none;
-}
-
-/* Utilities */
-.card1::after,
-.card1 img {
-    border-radius: 2%;
-}
-
-.card1,
-.stats1 {
-    display: flex;
-}
-
-.card1 {
-    padding: 2.5rem 2rem;
-    border-radius: 10px;
-    background-image: linear-gradient(to right bottom, rgb(0, 174, 255), #ffd786);
-    max-width: 90%;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .15);
-    margin: 1rem;
-    position: relative;
-    transform-style: preserve-3d;
-    overflow: hidden;
-    justify-content: center;
-}
-
-.card1::before,
-.card1::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-}
-
-.card1::before {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #FFF;
-    border-radius: 10px;
-    top: -.7rem;
-    left: -.7rem;
-}
-
-.card1::after {
-    height: 15rem;
-    width: 15rem;
-    background-color: #4172f5aa;
-    top: -8rem;
-    right: -8rem;
-    box-shadow: 2rem 6rem 0 -3rem #FFF
-}
-
-.card1 img {
-    float: left;
-    width: 150rem;
-    min-width: 80px;
-    box-shadow: 0 0 0 5px #FFF;
-}
-
-.infos {
-    margin-left: 1.5rem;
-}
-
-.name {
-    margin-bottom: 1rem;
-}
-
-.name h2 {
-    font-size: 1.3rem;
-}
-
-.name h4 {
-    font-size: .8rem;
-    color: #333
-}
-
-.text {
-    font-size: .9rem;
-    margin-bottom: 1rem;
-}
-
-.stats1 {
-    margin-bottom: 1rem;
-}
-
-.stats1 li {
-    min-width: 5rem;
-}
-
-.stats1 li h3 {
-    font-size: .99rem;
-}
-
-.stats1 li h4 {
-    font-size: .75rem;
-}
-
-.links1 button {
-    font-family: 'Poppins', sans-serif;
-    min-width: 120px;
-    padding: .5rem;
-    border: 1px solid #222;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all .25s linear;
-}
-
-.links1 .follow,
-.links1 .view:hover {
-    background-color: #222;
-    color: #FFF;
-}
-
-.links1 .view,
-.links1 .follow:hover {
-    background-color: transparent;
-    color: #222;
-}
-
-@media screen and (max-width: 450px) {
-    .card1 {
-        display: block;
-    }
-
-    .infos {
-        margin-left: 0;
-        margin-top: 1.5rem;
-    }
-
-    .links1 button {
-        min-width: 100px;
-    }
-} 
-                </style>
+                    .data_more_less_inner {
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                        position: relative;
+                    }
+                    
+                    .action_less {
+                        display: none;
+                    }
+                    
+                    .less_active .action_less {
+                        display: inline-block;
+                    }
+                    
+                    .less_active .action_more {
+                        display: none;
+                    }
+                    
+                    .data_more_less:not(.less_active):not(.action_disabled) .data_more_less_inner:after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+                        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+                        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+                        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff',
+                                GradientType=0);
+                        height: 80px;
+                    }
+                    
+                    .data_more_less.action_disabled .more_less_action {
+                        display: none;
+                    }
+                    
+                    h1 {
+                        margin-bottom: 0px;
+                    }
+                    
+                    .btn {
+                        color: rgb(0, 0, 0);
+                        text-decoration: none;
+                        border: 1px solid rgb(0, 0, 0);
+                        border-radius: 18px;
+                        padding: 7px 15px;
+                    }
+                    
+                    .btn:hover {
+                        background: rgb(92, 92, 92);
+                        color: rgb(255, 255, 255);
+                    }
+                    
+                    
+                    
+                    
+                    /* stat */
+                    
+                    
+                    
+                    @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;300;700&display=swap');
+                    
+                    ul {
+                        list-style: none;
+                    }
+                    
+                    body {
+                        min-height: 100vh;
+                        background-color: #f7f8fc;
+                    }
+                    
+                    .section {
+                        min-height: 50vh;
+                        margin: 0 30px;
+                    }
+                    
+                    .container1 {
+                        padding-left: 25px;
+                        padding-right: 25px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: fit-content;
+                        font-family: 'Anek Bangla', sans-serif;
+                        font-weight: bold;
+                    }
+                    
+                    .card {
+                        /* background-color: rgb(255, 187, 30); */
+                        background-image: linear-gradient(to right bottom, rgb(0, 10, 114), #4c449d);
+                        padding: 3rem 3.5rem;
+                        border-radius: 15px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        position: relative;
+                        max-width: 500px;
+                        border: 3px solid black;
+                        border-radius: 8px;
+                        /* z-index: 0; */
+                    }
+                    
+                    .card::before {
+                        content: '';
+                        position: absolute;
+                        top: -15px;
+                        left: 1px;
+                        width: 101%;
+                        height: 110%;
+                        background-image: linear-gradient(to right bottom, #4c449d, rgb(0, 10, 114));
+                        z-index: -1;
+                        border-radius: 15px;
+                        transform: rotate(-8deg);
+                        box-shadow: 0 0 45px 5px rgba(0, 0, 0, .2);
+                        border: 3px solid black;
+                            border-radius: 8px;
+                    }
+                    
+                    .card li {
+                        width: 50%;
+                        margin: 15px 0;
+                    }
+                    
+                    .card li p {
+                        display: flex;
+                    }
+                    
+                    .card li h3 {
+                        display: inline-block;
+                        font-size: 2rem;
+                        color: rgb(255, 255, 255);
+                        vertical-align: top;
+                        margin-right: 5px;
+                        line-height: 1.2;
+                    }
+                    
+                    .card li .fa {
+                        font-size: 18px;
+                    }
+                    
+                    .card li span {
+                        color: #ffffff;
+                        font-weight: bold;
+                        font-size: 14px;
+                    }
+                    
+                    
+                    .clr-up {
+                        color: green;
+                    }
+                    
+                    .clr-down {
+                        color: red;
+                    }
+                    
+                    @media screen and (max-width: 500px) {
+                        .card::before {
+                            top: -10px;
+                            left: -2px;
+                        }
+                    
+                        .card li {
+                            width: 100%;
+                        }
+                    
+                        .card li:not(:first-of-type) {
+                            margin-top: 15px;
+                        }
+                    }
+                    
+                    
+                    
+                    
+                    /* HOD Card */
+                    
+                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap');
+                    
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    < !-- body {
+                        font-family: 'Poppins', sans-serif;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #ADE5F9;
+                        min-height: 100vh;
+                    }
+                    
+                    -->img {
+                        max-width: 100%;
+                        display: block;
+                    }
+                    
+                    ul {
+                        list-style: none;
+                    }
+                    
+                    /* Utilities */
+                    .card1::after,
+                    .card1 img {
+                        border-radius: 2%;
+                    }
+                    
+                    .card1,
+                    .stats1 {
+                        display: flex;
+                    }
+                    
+                    .card1 {
+                        padding: 2.5rem 2rem;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right bottom, rgb(0, 174, 255), #ffd786);
+                        max-width: 90%;
+                        box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+                        margin: 1rem;
+                        position: relative;
+                        transform-style: preserve-3d;
+                        overflow: hidden;
+                        justify-content: center;
+                    }
+                    
+                    .card1::before,
+                    .card1::after {
+                        content: '';
+                        position: absolute;
+                        z-index: -1;
+                    }
+                    
+                    .card1::before {
+                        width: 100%;
+                        height: 100%;
+                        border: 1px solid #FFF;
+                        border-radius: 10px;
+                        top: -.7rem;
+                        left: -.7rem;
+                    }
+                    
+                    .card1::after {
+                        height: 15rem;
+                        width: 15rem;
+                        background-color: #4172f5aa;
+                        top: -8rem;
+                        right: -8rem;
+                        box-shadow: 2rem 6rem 0 -3rem #FFF
+                    }
+                    
+                    .card1 img {
+                        float: left;
+                        width: 150rem;
+                        min-width: 80px;
+                        box-shadow: 0 0 0 5px #FFF;
+                    }
+                    
+                    .infos {
+                        margin-left: 1.5rem;
+                    }
+                    
+                    .name {
+                        margin-bottom: 1rem;
+                    }
+                    
+                    .name h2 {
+                        font-size: 1.3rem;
+                    }
+                    
+                    .name h4 {
+                        font-size: .8rem;
+                        color: #333
+                    }
+                    
+                    .text {
+                        font-size: .9rem;
+                        margin-bottom: 1rem;
+                    }
+                    
+                    .stats1 {
+                        margin-bottom: 1rem;
+                    }
+                    
+                    .stats1 li {
+                        min-width: 5rem;
+                    }
+                    
+                    .stats1 li h3 {
+                        font-size: .99rem;
+                    }
+                    
+                    .stats1 li h4 {
+                        font-size: .75rem;
+                    }
+                    
+                    .links1 button {
+                        font-family: 'Poppins', sans-serif;
+                        min-width: 120px;
+                        padding: .5rem;
+                        border: 1px solid #222;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        cursor: pointer;
+                        transition: all .25s linear;
+                    }
+                    
+                    .links1 .follow,
+                    .links1 .view:hover {
+                        background-color: #222;
+                        color: #FFF;
+                    }
+                    
+                    .links1 .view,
+                    .links1 .follow:hover {
+                        background-color: transparent;
+                        color: #222;
+                    }
+                    
+                    @media screen and (max-width: 450px) {
+                        .card1 {
+                            display: block;
+                        }
+                    
+                        .infos {
+                            margin-left: 0;
+                            margin-top: 1.5rem;
+                        }
+                    
+                        .links1 button {
+                            min-width: 100px;
+                        }
+                    } 
+                                    </style>
                 <style>
                     
                     /* #myBtn1 {display: none;} */
@@ -827,40 +827,35 @@ ul {
              <center>   <div class="card1">
                     <div class="img">
                         <img
-                            src="admin-kvgce/photos/faculty/ujwal sir.JPG" style="width:600px; margin-bottom: 20px;" >
+                            src="admin-kvgce/photos/faculty/ece/kusuma.jpg" style="width:600px; margin-bottom: 20px;">
                     </div>
                     <div class="infos">
                         <div class="name">
-                        <strong><div class="header-fullname" id="som">DR. UJWAL U J</div></strong>
+                        <strong><div class="header-fullname" id="som">DR. KUSUMADHAR S</div></strong>
                             <div class="col-md-12 col-sm-12 col-xs-12 stats-col">
                                 
-                                <div class="stats-title"> M.Tech., MISTE, Ph.D.</div>
+                                <div class="stats-title">B.E.,M.Tech.,Ph.D, MISTE</div>
                             </div>
                         </div>
                         <p class="text">
-                            <strong>ujwalu@yahoo.com &nbsp;&nbsp;&nbsp;08257-231141 Ext: 5136</strong>
+                            <strong> echod.kvgce@gmail.com &nbsp;&nbsp;&nbsp;08257-231141 Ext: 5136</strong>
                         </p>
                         <ul class="stats1">
                             <li>
-                                <blockquote><p style="text-align: justify;"><span id="dots1"></span><span id="more1">  
-                                    A student is successful if the knowledge imparted in the engineering education and
+                                <blockquote>
+                                    <p style="text-align: justify;"><span id="dots1"></span><span id="more1">   A student is successful if the knowledge imparted in the engineering education and
                                     the
                                     skills developed by him can be effectively utilized in his life after his education
                                     and
                                     is able to contribute to the society and the socio-economic development of the
                                     country.</span></p>
-                                    <button  onclick="myreadmoreFunction()" id="myBtn1">READ MORE</button>
+                                    <button  onclick="myreadmoreFunction()" id="myBtn1">MORE</button>
                                    </blockquote>
                             </li>
                         </ul>
                         <div class="links1">
                             <!-- <button class="follow">Follow</button> -->
-
-                            <!-- <button class="view">MORE</button> -->
-
-                            <a href="/hod.html" target="_blank"><button class="view">Veiw Profile</button></a>
-
-
+                            <button class="view">View Profile</button>
                         </div>
                     </div>
                 </div> </center>
@@ -927,89 +922,73 @@ ul {
                                             <div class="data_more_less">
                                                 <div class="data_more_less_inner" data-height="300" data-increase-by="400">
                                                     <div class="data_more_less_body" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:15px;">
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The department aims at the development of outstanding Computer Science Professionals with
-                                                            strong
-                                                            ethics & societal concern. The intention of the department lies in providing
-                                                            high-quality
-                                                            educational services and highly- qualified graduates to serve the community with
-                                                            research and
-                                                            technical expertise. Our students follow high-caliber education programs in computer
-                                                            science to
-                                                            fulfill the requirements of quality. The department comprises a distinguished group of
-                                                            faculty
-                                                            members. Our passionate and exceptionally skilled faculties are pleased to help our
-                                                            students achieve
-                                                            their full potential. The students of the department get exposure to good companies
-                                                            through
-                                                            placements .There is an ample chance to become an ace entrepreneur and also pursue
-                                                            higher learning
+                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Department of Electronics & Communication Engineering was established in
+                                                            the year 1986 with a vision “To Create Innovative, Ethical and Sociable Electronics
+                                                            and Communication Engineers”, in the field of technical education and research.
+                                                            The department has well-qualified, self-motivated, experienced, and committed
+                                                            teaching talent whose main focus is on Teaching-Learning with the right balance
+                                                            in research. Throughout its sparkling history of 36 years, the department of E&CE
+                                                            has been known for its exceptionally strong Under-Graduate and Post Graduate
+                                                            training programs.
                                                         </p>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The department was established in 1991 with an initial intake of 60 students for
-                                                            undergraduate
-                                                            programme. The present intake is 120 seats. The department has always been on a high
-                                                            growth path and
-                                                            to keep pace with the current technological trends, the department has started an
-                                                            M.Tech(CSE)
-                                                            programme in the year 2012 with an intake of 24 seats.</p>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Research Centre, Department of Computer Science & Engineering started in the year
-                                                            2010 under VTU,
-                                                            Belagavi. The
-                                                            research areas of the center cover machine learning, cloud computing, big data
-                                                            analytics, wireless
-                                                            networks, image
-                                                            processing etc. there are 5 registered guides and 15 research scholars working in the
-                                                            research
-                                                            centre.</p>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The department also has 5 state of art laboratories with the best in class facilities for
-                                                            the
-                                                            students to carry out
-                                                            their laboratory activities and project works using both proprietary software. Apart
-                                                            from that, the
-                                                            department also has
-                                                            a centralized computer centre connected with 200 Mbps internet to meet the browsing
-                                                            requirement of
-                                                            students. The
-                                                            department of computer science and engineering is responsible for the maintenance of
-                                                            Software &
-                                                            Hardware of the
-                                                            computers in the college.</p>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department is led by an eminent professor and backed by 24 dedicated faculty members, the
-                                                            department
-                                                            has well qualified,
-                                                            experienced and committed faculty to provide quality industry tuned education to the
-                                                            students and
-                                                            most of them are
-                                                            members of professional bodies like ISTE, CSI.</p>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A few of the major areas of research interest that the faculties and students propose are
-                                                            Artificial
-                                                            intelligence,
-                                                            Internet of Things, Web Application development, Cloud Computing, Networking, Image
-                                                            Processing,
-                                                            Database, Software
-                                                            Engineering and Data mining.</p>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The department will always work in close lines with the latest trends and development of
-                                                            most of the
-                                                            renowned companies.
-                                                            This communication expedites the process of joint research, funded projects from the
-                                                            companies and
-                                                            provides a very good
-                                                            opportunity to learn the latest trends in the industry. The department also organizes
-                                                            technical
-                                                            talks by resource
-                                                            persons from industries in every semester. Also the students are given an opportunity to
-                                                            go for
-                                                            industrial visits,
-                                                            wherein they come to know the real world scenario of the companies and try to understand
-                                                            the work
-                                                            environment.</p>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The department has several MoUs with various industries. The main purpose of these MoUs
-                                                            is to fulfill
-                                                            the gap between
-                                                            academics and the actual industry scheme.</p>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The department also caters a cutting edge computational facility to the students. The
-                                                            department
-                                                            produces top-class
-                                                            graduates who are asked for both academia and best state of art Corporates.</p>
+                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Department offers 4 years of Undergraduate (UG) program in B.E and
+                                                            two years of Post Graduate (PG) program in M. Tech. with a specialization in
+                                                            Digital Electronics and Communication. The UG program was started in 1986,
+                                                            right from the inception of the college and the PG program was started in the year
+                                                            2004. The current student intake for the UG program is 60 and for the PG program
+                                                            is 18. In addition, the department has a VTU-recognized research center that
+                                                            offers high-quality research programs at the doctoral level. Presently 6 scholars
+                                                            are pursuing their Ph.D. degrees in the research center.</p>
+                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The department has thirteen well-qualified and dedicated faculty
+                                                            members- 4 doctorates and 9 M.Tech. degree holders- with an average experience
+                                                            of sixteen years- who are serving in the department. Since its inception, the
+                                                            department has achieved three university ranks in UG and six ranks in PG
+                                                            programs.</p>
+                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In order to foster the technical and leadership qualities in students , the
+                                                            department has a student association namely ENCEA. Under its banner; students
+                                                            organize various technical seminars, workshops and invited lectures exclusively
+                                                            for the students. The resource persons are from industry, academic institutions
+                                                            and R&D centers. This helps the students to be exposed to the emerging and stateof-the-art technological developments in the E&CE arena. National Conference
+                                                            “E- Congregation” is organized every year for the students. The departmental
+                                                            newsletter ‘Abhivyakthi' is brought out in every semester.</p>
+                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department has adequate infrastructure and well-equipped laboratories.
+                                                            The laboratory facilities include a sufficient number of personal computers with
+                                                            LAN connectivity, internet facility, software packages and hardware are
+                                                            regularly being upgraded with time. Department is equipped with LCD projectors
+                                                            for lecture delivery, seminars and demonstration purpose in addition to an ICTenabled classroom. A separate mini-project laboratory has been established for
+                                                            the academic year 2022-23. Currently, MOU has been signed with the company
+                                                            Takshila Institute of VLSI Technologies, Bengaluru.</p>
+                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Staff members are provided with separate faculty chambers and cabins.
+                                                            Wi-fi hotspots have been provided in classrooms, laboratories and faculty cabins.
+                                                            In addition to Central Library; Departmental Library has more than 1400 volumes
+                                                            with 378 titles, which includes academic, competitive related books and thesis
+                                                            reports of B.E, M.Tech, and Ph.D. that can be accessed by students as well as
+                                                            faculties.</p>
+                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The curriculum and syllabi for the programs offered in the department are
+                                                            currently designed as per the National Education Policy (NEP-2020). The
+                                                            curriculum is designed to balance the depth of knowledge acquired through
+                                                            specialization and the breadth of knowledge gained through exploration and is
+                                                            ready to provide quality technical courses on par with IIT and NITs. The
+                                                            undergraduate degree courses offered by the department provide a
+                                                            comprehensive foundation in the core topics of ECE coupled with areas of
+                                                            interdisciplinary specialization relevant to emerging engineering challenges. </p>
+                                                       <h2>Salient features of the department
+                                                    </h2>
+                                                    <ul>
+                                                        <li>Adequate infrastructure & Well-Equipped Laboratories</li>
+                                                        <li>Well-qualified, self-motivated, experienced and dedicated faculties.</li>
+                                                        <li>Highest campus placement from elite core and software companies.</li>
+                                                        <li>VTU Research Centre [Ph.D.]</li>
+                                                        <li>Department Association ENCEA (Electronics and Communication
+                                                            Engineering Association)</li>
+                                                            <li>Karnataka State Council for Science & Technology (KSCST) and VTU
+                                                                funded UG projects.</li>
+                                                                <li>o Department Library with more than 1400 Books</li>
+                                                                <li>Industrial Projects & Internships</li>
+                                                                <li>MoU with companies</li>
+                                                                <li>“Amara Kannada Sahithya Vedike”- a forum to encourage the students
+                                                                    and staff to involve in activities relevant to Kannada literature</li>
+                                                    </ul>
                                                     </div>
                                                 </div>
                                                 <a href="#" class="action_more" style="border-radius: 18px;"><button type="button" class="btn btn-outline-primary">Read More</button></a>
@@ -1075,8 +1054,7 @@ ul {
                                                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
                                                             aria-labelledby="headingOne">
                                                             <div class="panel-body">
-                                                                <p>"To Produce qualified Computer Science & Engineering graduates with human values
-                                                                    and ethical Skills" </p>
+                                                                <p>"To create Innovative, Ethical and Sociable Electronics and Communication Engineers" </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1091,12 +1069,9 @@ ul {
                                                             <div class="panel-body">
                                                                 <p>
                                                                 <ul class="list">
-                                                                    <li>Impart students with strong fundamental concepts, analytical capability,
-                                                                        programming and problem solving skills.</li>
-                                                                    <li>Encourage an ambience of education through faculty training, self learning,
-                                                                        sound academic practices and Industry related endeavors.</li>
-                                                                    <li>Imbibe environment Conciseness, social awareness and responsibility in
-                                                                        students to serve the society.</li>
+                                                                    <li>Implement Academic Process through University Syllabus and Identified Curriculum Gaps</li>
+                                                                    <li>Provide platforms for Teambuilding, Leadership Skills in students community through Motivation and Communication</li>
+                                                                    <li>Build Ethical and Leadership skills through Interactions with the outside world</li>
                                                                 </ul>
                                                                 </p>
                                                             </div>
@@ -1113,17 +1088,11 @@ ul {
                                                             <div class="panel-body">
                                                                 <p>
                                                                 <ul class="list">
-                                                                    <li>Apply Engineering Basics Analyze Engineering Challenges through application
-                                                                        of mathematical and Algorithmic principles for real life technology
-                                                                        projects.
+                                                                    <li>Engage in designing, manufacturing, testing, operating and/or maintaining systems in the field of electronics and communication engineering and allied engineering industries
                                                                     </li>
-                                                                    <li>Engineering Skills and techniques Apply skills like Analyzing, Designing,
-                                                                        Implementing and Testing of Major and Minor Projects</li>
-                                                                    <li>Individual and Team Work Exhibit collaborative abilities in the engineering
-                                                                        projects like Communication Skill, work as individual or in a team with a
-                                                                        sense of Social Responsibility</li>
-                                                                    <li>Life Long Learning Initiate technological and skills required for
-                                                                        comprehensive contribution as experts in the Chosen Profession.</li>
+                                                                    <li>Solve problems of social relevance by applying the knowledge of electronics and communication engineering, and/or pursuing higher education and research</li>
+                                                                    <li>Work effectively as individuals and as team members, engage in lifelong learning and adapt to changing professional and societal needs</li>
+                                                                  
                                                                 </ul>
                                                                 </p>
                                                             </div>
@@ -1140,7 +1109,7 @@ ul {
                                                             <div class="panel-body">
                                                                 <p>
                                                                 <ul class="list">
-                                                                    By the end of the undergraduate programme in CSE, graduates will be able to:
+                                                                  
                                                                     <li>Engineering Knowledge: To apply the knowledge of mathematics, science,
                                                                         engineering fundamentals, and an engineering specialization to the solution
                                                                         of complex engineering problems</li>
@@ -1199,17 +1168,11 @@ ul {
                                                             <div class="panel-body">
                                                                 <p>
                                                                 <ul class="list">
-                                                                    By the end of the undergraduate programme in CSE, graduates will be able to:
-                                                                    <li>PROBLEM SOLVING SKILLS Specify, design, build and test analog, digital and
-                                                                        embedded systems for signal processing</li>
-                                                                    <li>PROFESSIONAL SKILLSUnderstand and architect wired and wireless analog and
-                                                                        digital communication systems as per specifications, and determine their
-                                                                        performance</li>
-                                                                    <li>ETHICS AND CAREER DEVELOPMENTExhibit skills required for a successful career
-                                                                        in the industry based on principles of software project management,
-                                                                        teamwork, ethical practices, develop the spirit of free enterprise and
-                                                                        provide innovative ideas towards analysis.
+                                                                  
+                                                                    <li>Specify, design, build and test analog, digital and embedded systems for signal processing</li>
+                                                                    <li>Understand and architect wired and wireless analog and digital communication systems as per specifications, and determine their performance
                                                                     </li>
+                                                                
                                                                 </ul>
                                                                 </p>
                                                             </div>
@@ -1328,18 +1291,15 @@ ul {
                                                 display: block;
                                                 position: absolute;
                                                 bottom: 0px;
-                                                left: 0px;
+                                                left: -30px;
                                                 transition: 0.4s;
                                                 padding: 15px 0;
                                                 background: rgba(0, 0, 0, 0.4);
-                                                border-top-right-radius: 8px;
-                                                padding-right:6% ;
                                             }
 
                                             #team .member:hover .member-info {
                                                 left: 0px;
                                                 right: 0px;
-                                                border-radius: 8px;
                                             }
 
                                             #team .member h4 {
@@ -1386,291 +1346,271 @@ ul {
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
                     </div>
                 </div> -->
-                                                <div class="row" style="align-items:center">
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/smitha-mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Dr. Smitha M L</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                     <div class="row" style="align-items:center">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/savitha.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Dr. Savitha M</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/savitha-mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Dr. Savitha C K</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/anil.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Anil B V</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/prajna-mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Dr. Prajna M R</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/bhagya.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Dr. Bhagya H K</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/Bhagyajyothi-K-L-mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. Bhagyajyothi K L</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/divya-mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. Divya A K</h4>
-                                                                <span>Web Designer</span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/vijay.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Vijaya Kumar K</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/rekha.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Rekha A A</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/jyothimani-mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Dr. Jothimani K </h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/jaga.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Jagadeesh M </h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/BP-sir.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. Balapradeep K N</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/rekha m b.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Rekha M B</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/kishore-kumar-sir.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. Kishore Kumar K</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/venkatesh-sir.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. Venkatesh U C</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/sindhu-mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. Sindhu Venkatesh</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/yashaswini mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. Yashaswini K L</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/sooraj-sir.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. M H Sooraj Prasad</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-</div>
-<div class="row" style="align-items:center">
-                                                   
-                                                  
-
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/sonia-mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. Sonia Peal K P</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <div class="member">
-                                                            <div class="member-img">
-                                                                <img src="admin-kvgce/photos/faculty/bhavya-mam.jpg"
-                                                                    class="img-fluid" alt="">
-                                                            </div>
-                                                            <div class="member-info">
-                                                                <h4>Prof. Bhavya P S</h4>
-                                                                <span></span>
-                                                                <div class="social-links">
-                                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/aruna.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Aruna P G</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/lokesh.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Lokesh P C</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/sathyajith.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Sathyajith M</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/ece/adarsha.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Adarsha D</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-6">
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/sonia mam.JPG"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Sonia Peal K P</h4>
+                                <span></span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="admin-kvgce/photos/faculty/bhavya mam.JPG"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Prof. Bhavya P S</h4>
+                                <span>ISO Developer</span>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                                    </div>
+                                         </div>
                                         </section>
                                     </div>
                                 </div>
-                             
-                               
+                            
+                            
 
                             </div>
                         </div>
@@ -1679,153 +1619,261 @@ ul {
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>‘C’ Programming Lab.</p>
+                                        <p>ElectronicDevices and Instrumentation Lab.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>Data Structures Lab.</p>
+                                        <p>Digital System Design Lab </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>Electronics Circuits And Logic Design Lab.</p>
+                                        <p>Microcontroller Lab.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>Design and Analysis of Algorithms Lab .</p>
+                                        <p>Analog Circuit Lab.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>Microprocessors Lab.</p>
+                                        <p>HDL Lab </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>Database Applications Lab.</p>
+                                        <p>Digital Signal Processing Lab </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>System Software And Operating Systems Lab.
+                                        <p>Embedded System Lab 
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>Computer Graphics Lab.</p>
+                                        <p>Communication Lab </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>Unix System Programming And Compuware Design Lab./</p>
+                                        <p>Computer Network Lab </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>Networks Lab</p>
+                                        <p>VLSI Lab </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="facility-box">
-                                        <p>Web Programming Lab</p>
+                                        <p>Project Lab </p>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="facility-box">
-                                        <p>Project Lab.</p>
+                                </div>>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    
+                                            <div class="facility-box">
+                                                <p>Mentor Graphics</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="facility-box">
+                                                <p>Xilinx</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>Microwind</p>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>MATLAB </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>Code Composer Studio </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>ARM Cortex/ Keil/ Flash Magic </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>Multisim  </p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="facility-box">
-                                        <p>Computer Graphics Lab.</p>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    
+                                            <div class="facility-box">
+                                                <p>Smart Classrooms</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="facility-box">
+                                                <p>Department Library</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>Department Seminar Hall</p>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>Co-curricular and Extracurricular activities through  </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>Departmental Association (ENCEA) </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>Funded Projects </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>NSS and YRC unit  </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="facility-box">
+                                            <p>Internet and Wi-Fi facility  </p>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
-                        </div>
+
+
+                    
                       
                         <div class="tab-pane fade" id="Placements">
                            
-                          
-                                
-                       
+                        
                         </div>
 
                         <div class="tab-pane fade" id="activities">
 
-                            <div class="department-activities-box">
-                                <div class="department-activities">
-                                    <h2>CENSA has organized cultural event “ERROR” Compile-Run-Have Fun on 1st January 2022</h2>
-                                    <div class="department-activities-img gallery">
-
-                                        
-                                            <img src="images/newsandevents/act1.png" class="img-responsive" style="max-width:350px">
-                                            
-                                        
-
-                                       
-                                    </div>
-                                 
-                                 
-
-                               
-
-                                  
-
-                                 
-                                    <span style="font-size: 12pt; line-height: 107%; font-family: " times="" new=""
-                                        roman",="" serif;"="">CENSA has organized cultural event “ERROR” Compile-Run-Have Fun on 1st January 2022.</span> </p>
-                                </div>
-                            </div>
-
-   
-                        
-
- 
+                           
 
                         </div>
 
                         <div class="tab-pane fade" id="internship">
                             <div class="row">
                                 <div class="col-md-8">
-                                    <h4>Following is the list of companies which carried the internship program for the year 2020-21</h4>
-                                    <div class="panel-body">
-                                        <p>
-                                        <ul class="list">
-                                        <li>	Experienced and dedicated faculty members</li>
-                                        <li>	Recognized research Centre (VTU-Ph.D)</li>
-                                        <li>	Well equipped laboratories with more than 150 computers</li>
-                                           <li>Separate department library with more than 700 books</li>
-                                            <li>Department association CENSA (Computer Engineering Students Association)</li>
-                                            <li>Wi-Fi Internet connection for students and faculties with 200Mbps</li>
-                                            <li>Classrooms with Power Point Projector</li>
-                                            
-                                            
-                                        </ul>
-                                        </p>
-                                    </div>
-
-
-                                    <h4>Following is the list of companies which carried the internship program for the year 2021-22</h4>
-                                    <div class="panel-body">
-                                        <p>
-                                        <ul class="list">
-                                        <li>Compsoft Technologies,Bangalore</li>
-                                        <li>	Runshaw Technologies Put. Ltd, Bangalore</li>
-                                            <li>Thaniya Technologies, Karkala, Karnataka</li>
-                                          <li>  BIONIC ENGINEERS,Bangalore</li>
-                                           <li> Vivarttana Technologies,Bangalore</li>
-                                         <li>   ICS Solutions, Bangalore</li>
-                                         <li>   e-Brain Softech Private Limited,Bangalore</li>
-                                            
-                                            
-                                            
-                                        </ul>
-                                        </p>
-                                    </div>
+                                    
+                                        <p> 4KV16EC027	Raksha VK	Embedded System design	Vitvara technologies Mangalore</p>
+                                  
                                 </div>
+                                <div class="col-md-8">
+                               <p> 4KV16EC027	Raksha VK	Embedded System design	Vitvara technologies Mangalore</p>
+                                </div>
+                                <div class="col-md-8">
+                               <p> 4KV16EC032	Roopa B	Manufacturing of Electronic Board in SMT and PTH production	Tycoon Innovative Technologies, Mysore</p>
+                            </div>
+                                <div class="col-md-8">
+                              <P>  4KV17EC006	Alwyn dsouza	Embedded System design	Vitvara technologies Mangalore</P></div>
+                                <div class="col-md-8">
+
+                                    <p>4KV17EC007	Bhargavi	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC008	Bhumica J Rao	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC009	BREJVITH DSOUZA K	Embedded System design	Vitvara technologies Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>  4KV17EC010	Chaithanya	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC011	Dhanush Rai K	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC012	Ganavi M A	Embedded System design	Vitvara technologies Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>4KV17EC013	Harini Rai K	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC015	Harshitha M A	Manufacturing of Electronic Board in SMT and PTH production	Tycoon Innovative Technologies, Mysore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC016	Harshitha TS	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>4KV17EC017	Hemanthkumar Gr	Manufacturing of Electronic Board in SMT and PTH production	Tycoon Innovative Technologies, Mysore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC018	Jayashreesalian	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>4KV17EC019	Kanchana	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>4KV17EC020	KARTHIK Rai K S	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC021	Likhitha rai	Embedded System design	Vitvara technologies Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>   4KV17EC022	Manaswi D	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>  4KV17EC023	MOHAMMAD SHAZIL K I	PYTHON AI ML	TechnoLogics, Bangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC024	Nischitha.G.C	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>  4KV17EC025	Nishmitha K	Machine Learning	InMovidu Technology, Bangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC026	Numan S M	PYTHON AI ML	TechnoLogics, Bangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>  4KV17EC027	Pavithra s	Manufacturing of Electronic Board in SMT and PTH production	Tycoon Innovative Technologies, Mysore</P></div>
+                                <div class="col-md-8">
+                                    <p>   4KV17EC028	Pooja H J	Manufacturing of Electronic Board in SMT and PTH production	Tycoon innovative technology.Mysore</P></div>
+                                <div class="col-md-8">
+                                    <p>  4KV17EC029	Pratheeka A P	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>  4KV17EC030	Rachana K B	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>   4KV17EC031	Rakshitha R A	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>  4KV17EC036	Shreemoulya M H	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>  4KV17EC037	Shreeraksha K S	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC038	Srushti S	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC039	Sumithra	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC040	Supreetha K P	Embedded System design	Vitvara technologies Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p>  4KV17EC042	Thanush H L	C and c++	Internshala , online</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC044	VIGNESH POOJARY	Embedded System design	Vitvara technologies Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC045	VinayakaVenkatramanaDevadiga	</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC046	Yogesh A.T	Manufacturing of Electronic Board in SMT and PTH production	Tycoon Innovative Technologies, Mysore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC047	YOGESH NAGAPPA DEVADIG	Manufacturing of Electronic Board in SMT and PTH production	Tycoon Innovative Technologies, Mysore></P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC048	Shraddha K	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV17EC049	Amitha J	Embedded System design	Vitvara Technologies, Mangalore</P></div>
+                                <div class="col-md-8">
+                                    <p> 4KV18EC400	B S Theerthesha	Manufacturing of Electronic Board in SMT and PTH production	Tycoon Innovative Technologies, Mysore</P></div>
+                                <div class="col-md-8">
+                               <p> 4KV18EC401	Roopa N. K	Manufacturing of Electronic Board in SMT and PTH production	Tycoon Innovative Technologies, Mysore</P></div>
+                                 
                                 
                                 
                             </div>
@@ -1837,30 +1885,7 @@ ul {
 
                         <div class="tab-pane fade" id="newsletter">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <a href="images/department/cs/News Letter - 18-29.pdf"  target="_blank"><img
-                                        src="images/department/download1.gif" class=" img-circle img-responsive">
-                                        <h4> Newsletter 2018 - 2019</h4>
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="images/department/cs/cs&e newsletter 19-20(2).pdf" target="_blank"><img
-                                            src="images/department/download1.gif" class=" img-circle img-responsive">
-                                        <h4> Newsletter 2019 - 2020</h4>
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="images/department/cs/cs&e newsletter 20-21(1).pdf" target="_blank"><img
-                                            src="images/department/download1.gif" class=" img-circle img-responsive">
-                                        <h4> Newsletter 2020 - 2021</h4>
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="images/department/cs/cs&e newsletter 20-21(2).pdf" target="_blank"><img
-                                            src="images/department/download1.gif" class=" img-circle img-responsive">
-                                        <h4> Newsletter 2020 - 2021</h4>
-                                    </a>
-                                </div>
+                               
                             </div>
                         </div>
 
@@ -2404,24 +2429,7 @@ s0.parentNode.insertBefore(s1,s0);
             });
         })(jQuery);
     </script>
-    <!-- Social Media Start -->
-    <!-- <div class="fixedSocialIcon">
-        <ul>
-            <li class="facebook"><a
-                    href="https://www.facebook.com/pages/category/Educational-Research-Center/St-Joseph-Engineering-College-Mangalore-693504384043128/"
-                    target="_blank"><span></span>/sjec</a></li>
-            <li class="twitter"><a href="https://twitter.com/SJEC_Mangaluru?s=08" target="_blank"><span></span>@sjec</a>
-            </li>
-            <li class="instagram"><a href="https://instagram.com/official_sjec_mangaluru"
-                    target="_blank"><span></span>@sjec</a></li>
-            <li class="youtube"><a href="https://www.youtube.com/channel/UCUI7tBByrJ-T1cdN_CrifIg?view_as=subscriber"
-                    target="_blank"><span></span>/chillipages</a></li> -->
-    <!--<li class="googlePlus"><a href="#nogo" target="_blank"><span></span>+chillipages</a></li>
-        <li class="linkedin"><a href="#" target="_blank"><span></span>chillipages</a></li>
-        <li class="youtube"><a href="#nogo" target="_blank"><span></span>/chillipages</a></li>-->
-    <!-- </ul>
-    </div> -->
-    <!-- Social Media End -->
+   
     <!-- Pushy JS -->
     <link rel="stylesheet" href="css/pushy.css">
     <!-- Pushy Menu -->
